@@ -1,0 +1,30 @@
+#include<iostream> 
+using namespace std; 
+class parent{
+public: 
+parent() 
+{ 
+cout<<"parent class construtor\n"; 
+} 
+~parent() { 
+cout<<"parent class destructor\n"; 
+} 
+}; 
+class child :public parent
+{ 
+public: 
+child() { 
+cout<<"child class
+constructor\n"; 
+} 
+~child() 
+{ 
+cout<<"child class 
+destructor\n"; 
+} }; 
+intmain() 
+{ 
+cout<<"Roll No:24B11AI303"<<endl; 
+child c; 
+return 0; 
+}
